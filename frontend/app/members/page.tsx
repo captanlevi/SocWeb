@@ -1,5 +1,5 @@
 "use client"
-import { ChangeEvent, useEffect, useState } from "react"
+import { useEffect, useState } from "react"
 import { getJSON, postJSON } from "../requests/httpJSONRequests"
 import { MdAdd } from "react-icons/md";
 import IconRender from "@/components/icon";
@@ -10,7 +10,6 @@ import InputComponent from "../components/inputComponent";
 import { FaBeer } from "react-icons/fa";
 import { checkZid } from "../commons";
 import { FaSearch } from "react-icons/fa";
-import { text } from "stream/consumers";
 
 export default function Page(){
     return(
